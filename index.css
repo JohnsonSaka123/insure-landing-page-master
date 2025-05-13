@@ -421,8 +421,7 @@ body{
     font-weight: 500;
   }
   .intro-right_pattern{
-    top: 570px;
-    left: 320px;
+    display: none;
   }
   .intro-left_pattern{
     top: 400px;
