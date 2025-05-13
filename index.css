@@ -34,6 +34,9 @@ body{
   color: hsl(270, 9%, 17%);
   padding: 6px;
 }
+.mobile_nav{
+  display: none;
+}
 .hero-section{
   background-color: hsl(256, 26%, 20%);
   display: flex;
@@ -241,4 +244,140 @@ body{
   font-weight: 400;
   font-size: 0.76rem;
   font-style: normal; 
+}
+.family-mobile{
+  display: none;
+}
+@media(max-width:768px){
+  .header{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+  }
+  .brand-logo img{
+    object-fit: cover;
+    max-width: 100%;
+    align-self: center;
+  }
+  .nav{
+    display: none;
+  }
+  .mobile_nav{
+    display: flex;
+  }
+  .mobile_nav img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 0;
+    height: auto;
+    text-align: center;
+  }
+  .hero-image{
+    position: static;
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-image img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .family-desktop{
+    display: none;
+  }
+  .family-mobile{
+    display: block;
+  }
+  .intro-section::before{
+    display: none;
+  }
+  .intro-section{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .intro-section .main-title{
+    font-size: 30px;
+    margin-top: 3rem;
+    padding-top: 0;
+  }
+  .intro-section .description{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  .view-btn{
+    margin-bottom: 2rem;
+  }
+  .stand-out{
+    margin: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .what-makes_stand{
+    flex-direction: column;
+    gap: 2rem;
+    
+  }
+  .stand{
+    justify-content: center;
+    align-items: center;
+  }
+  .stand-description{
+    text-align: center;
+  }
+  .banner{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  .banner h2{
+    text-align: center;
+  }
+  .footer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+  }
+  .footer-head{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .related-links{
+    flex-direction: column;
+    gap: 2.6rem;
+  }
+  .related-links > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nav-lists li{
+     text-align: center;
+  }
+  .link-heading{
+    text-align: center;
+    font-weight: 500;
+  }
+  .intro-right_pattern{
+    top: 570px;
+    left: 320px;
+  }
+  .intro-left_pattern{
+    top: 400px;
+    transform: translateZ(30%);
+  }
+  
 }
