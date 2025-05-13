@@ -5,9 +5,10 @@
 }
 body{
   height: 100vh;
+  overflow-x: hidden;
 }
 .header{
-  margin: 1rem 7rem;
+  margin: 1rem 5vw;
   display: flex;
   justify-content: space-between;
   max-width: 100%;
@@ -45,7 +46,7 @@ body{
   background-color: hsl(256, 26%, 20%);
   display: flex;
   align-items: center;
-  padding: 3rem 7rem;
+  padding: 3rem  5vw;
   height: 400px;
   position: relative;
 }
