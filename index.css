@@ -249,6 +249,9 @@ body{
   display: none;
 }
 @media(max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
   .header{
     margin-left: 2rem;
     margin-right: 2rem;
